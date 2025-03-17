@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left bottom, aliceblue, pink, aliceblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgba(255, 255, 255,.3);
+    padding: 2rem;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    border-radius: 5px;
+    width: 85%;
+    max-width: 450px;
+}
+.heading{
+    text-align: center;
+}
+
+.ratings-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    font-size: 3rem; /* Adjust size as needed */
+    display: block; /* Ensures it's properly aligned */
+    margin: 0 auto; /* Centers the emoji */
+}
+.rating {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    margin: 0px 10px;   
+    cursor: pointer; /* Indicate clickable */
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;  
+}
+.rating small{
+    font-size: 1.2rem;
+    font-weight: 700;    
+}
+
+.img:hover{
+    /* background: rgba(255, 255, 255,.3); */
+    font-size: 3.5rem;
+    transition: all .3s ease-in-out;
+}
+
+.rating.active {
+    background-color: rgba(255, 255, 255, 0.5); /* Highlight selected */
+    transform: scale(1.1);
+}
+
+
+.btn{
+    background: rgba(255, 255, 255,.3); 
+    width: 100%;  
+    margin-top: 30px;  
+    /* margin: 10px auto; */
+
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500; 
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+}
+.btn:hover{
+    font-weight: 580;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+    transition: all .3s ease-in;
+}
