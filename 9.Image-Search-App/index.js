@@ -1,4 +1,4 @@
-const apiKey="8mXglMX4y-LO97HTbiQWrQhNgI1HafdYc_Qf9cMm4Oo"
+const apiKey="####################################"
 const formEle= document.querySelector('form')
 
 const searchInputEle= document.getElementById("search-input")
