@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left bottom, rgb(117, 211, 243), rgb(181, 237, 113), rgb(152, 223, 247) );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgba(255, 255, 255,.3);
+    padding: 20px;
+    box-shadow:0 6px 10px rgba(0,0,0,.3) ; /*x-axis y-axis blurness*/
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    color: navy;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-shadow: 0 05px 10px rgba(0, 0, 0, 0.3);
+}
+#joke{
+    font-size: 25px;
+    font-weight: 500;
+}
+#btn{
+    border: none;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    border-radius:5px ;
+    margin: 10px;
+    width: 60%;
+    /* background-color: navy; */
+    /* background: linear-gradient(to left bottom, lightblue, lightpink, lightblue ); */
+    color: navy;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+#btn:hover{
+    /* background-color: rgb(40, 40, 180); */
+    width: 65%;
+    font-weight: bolder;
+}
+
+
