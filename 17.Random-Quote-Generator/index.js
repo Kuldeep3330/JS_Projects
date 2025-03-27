@@ -1,4 +1,4 @@
-const apiKey = "HrhjaBxEbQFoaV0LiHpfeQ==ialZmnwizdq6uwws";
+const apiKey = "#################################";
 const btnEle = document.getElementById('btn');
 const quoteEle= document.getElementById('quote')
 const authorEle= document.getElementById('author')
