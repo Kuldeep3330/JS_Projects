@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color: darkcyan;    
+}
+
+.container{
+    background: rgba(255, 255, 255, .3);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    /* width: 85%; */
+    max-width: 450px;
+    min-width: 350px;
+    display: felx;
+    flex-direction: column;
+    align-items: center;    
+}
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.heading{
+    font-size: 32px;
+}
+.input{
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    background: rgba(255, 255,255, .3);
+    border-color: rgba(255, 255, 255, .5);
+    color: darkgreen;
+    font-size: 20px;
+    outline: none;
+    /* margin: 5px; */
+}
+.input::placeholder{
+    color: darkgray;
+}
